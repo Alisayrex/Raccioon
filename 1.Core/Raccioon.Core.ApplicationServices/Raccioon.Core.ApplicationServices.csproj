@@ -20,4 +20,10 @@
 		<PackageReference Include="Zamin.Core.Domain.Toolkits" Version="7.0.0-beta.1" />
 	</ItemGroup>
 
+
+
+	<ItemGroup>
+	  <Folder Include="Persons\Commands\" />
+	</ItemGroup>
+
 </Project>

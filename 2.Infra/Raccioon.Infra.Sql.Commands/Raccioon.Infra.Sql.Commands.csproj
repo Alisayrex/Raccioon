@@ -17,4 +17,11 @@
 		<PackageReference Include="Zamin.Infra.Data.Sql.Commands" Version="7.0.0-beta.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="DomainValidation\Configurations\" />
+	  <Folder Include="DomainValidation\Entities\" />
+	  <Folder Include="Migrations\" />
+	  <Folder Include="Persons\Contracts\" />
+	</ItemGroup>
+
 </Project>
