@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
-using Raccioon.Core.Contracts.Orders.Commands.DefineOrder;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Raccioon.Endpoints.Api.Orders
 {
@@ -11,10 +9,7 @@ namespace Raccioon.Endpoints.Api.Orders
         [HttpGet]
         public IEnumerable<string> TestMe()
         {
-
-             return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value2" };
         }
-
-
     }
 }

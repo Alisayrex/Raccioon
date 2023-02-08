@@ -11,9 +11,8 @@ namespace Raccioon.Infra.Sql.Commands.Orders.Contracts
         public OrderCommandRepository(OrderCommandDbContext dbContext)
             : base(dbContext)
         {
+
         }
 
-       
-     
     }
 }
