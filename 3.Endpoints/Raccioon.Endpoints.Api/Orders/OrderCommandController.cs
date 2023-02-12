@@ -10,7 +10,9 @@ namespace Raccioon.Endpoints.Api.Orders
     {
         [HttpPost]
         public async Task<IActionResult> DefineOrder([FromBody] DefineOrderCommand command)
-            => await Create<DefineOrderCommand, Guid>(command);
+        {
+            return await Create<DefineOrderCommand, Guid>(command);
+        }
 
         [HttpPost]
         public async Task<IActionResult> CleanOrderFromItems([FromBody] CleanOrderFromItemsCommand command)
